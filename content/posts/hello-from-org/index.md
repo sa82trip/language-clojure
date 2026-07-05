@@ -1,6 +1,6 @@
 +++
 title = "안녕하세요 클로저 블로그"
-author = ["Joonsung Gil"]
+author = ["정탐"]
 draft = false
 +++
 
