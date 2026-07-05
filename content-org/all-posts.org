@@ -1,0 +1,34 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+startup: overview
+
+* 안녕하세요 클로저 블로그
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: hello-from-org
+:EXPORT_HUGO_DRAFT: nil
+:END:
+
+이 글은 =org-mode= 에서 =ox-hugo= 로 export한 첫 글입니다.
+수동 export(subtree) 파이프라인이 동작하는지 확인하는 테스트 글입니다.
+
+# Page Bundle 이미지 워크플로:
+#   이미지는 content/posts/hello-from-org/images/ 에 둔다.
+#   org 참조: [[file:images/<name>.jpg]]  ->  export 시 index.md 내 상대경로로 변환
+
+** 소제목 — 리스트와 강조
+
+- 일반 리스트 항목
+- *굵게* 와 /이탤릭/ 도 잘 되는지
+- =코드= 표기도 확인
+
+** 코드 블록
+
+#+begin_src clojure
+(defn hello [name]
+  (str "Hello, " name "!"))
+
+(hello "Clojure")
+#+end_src
+
+다음 글부터는 본격적으로 Clojure 학습 노트를 올릴 예정입니다.

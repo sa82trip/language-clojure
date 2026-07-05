@@ -1,0 +1,13 @@
+baseURL = 'https://sa82trip.github.io/language-clojure/'
+defaultContentLanguage = 'ko'
+title = 'hello-clojure'
+theme = 'ananke'
+
+[languages.ko]
+  locale = 'ko-KR'
+  weight = 1
+
+[params]
+  # Ananke 배경색. 대안: bg-blue, bg-dark-gray, bg-green, bg-purple, bg-mid-gray
+  background_color_class = 'bg-black'
+  recent_posts_number = 5
