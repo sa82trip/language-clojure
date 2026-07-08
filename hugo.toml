@@ -1,13 +1,30 @@
 baseURL = 'https://sa82trip.github.io/language-clojure/'
+languageCode = 'ko-KR'
 defaultContentLanguage = 'ko'
 title = 'hello-clojure'
-theme = 'ananke'
+theme = 'PaperMod'
 
 [languages.ko]
-  locale = 'ko-KR'
+  languageName = '한국어'
   weight = 1
 
 [params]
-  # Ananke 배경색. 대안: bg-blue, bg-dark-gray, bg-green, bg-purple, bg-mid-gray
-  background_color_class = 'bg-black'
-  recent_posts_number = 5
+  env = 'production'
+  defaultTheme = 'auto'
+  # 핵심 기능: 코드 복사 버튼 + 자동 목차
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocSide = 'right'
+  # 가독성 보조
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+    Title = 'hello-clojure'
+    Content = 'Clojure 학습 노트'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/sa82trip'
